@@ -1,0 +1,13 @@
+
+img{
+    height: 135px;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    text-align: center;
+    align-items: center;
+    table-layout: fixed;
+}

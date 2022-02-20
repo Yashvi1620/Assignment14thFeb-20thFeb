@@ -1,0 +1,33 @@
+h2{
+    text-align: center;
+    color: black;
+}
+
+
+table{
+    border: 2px solid black;
+    width:600px;
+    margin:auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 40px;
+    border-collapse: collapse;
+    
+
+}
+th,td{
+    border: 1px solid black;
+    
+}
+tr:nth-child(3n+3){
+    background-color: darkgray;
+}
+tr:nth-child(3n+2){
+    background-color: gray;
+}
+tr:nth-child(3n+1){
+    background-color: lightgray;
+}
+th{
+    background-color: white;
+}
